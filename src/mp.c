@@ -1,3 +1,13 @@
+/** 
+GENERADOR DE DICCIONARIOS TOTALMENTE PERSONALIZADO 
+AUTOR : JOSE LUIS DE BLAS
+CENTRO: UNIVERSIDAD INTERNACIONAL DE LA RIOJA (UNIR)
+FECHA: 28/04/22 
+VERSION: 1.0
+LICENCIA: MIT
+*/
+
+
 #define _LARGEFILE_SOURCE
 #define _FILE_OFFSET_BITS 64
 
@@ -9,13 +19,6 @@
 #include <fcntl.h>
 #include <stdint.h>
 
-/**
- * Name........: maskprocesspr (mp)
- * Description.: High-Performance word generator with a per-position configureable charset
- * Version.....: 0.73
- * Autor.......: Jens Steube <jens.steube@gmail.com>
- * License.....: MIT
- */
 
 #define CHARSIZ          0x100
 #define PW_MAX           0x100
